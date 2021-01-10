@@ -32,8 +32,10 @@ namespace UD10_Ej8
             int num_asis = 0;
             num_asis = random_asis.Next(1, 11);
 
-            if (num_asis <= 5) return false;
-            else return true;
+            if (num_asis <= 5) disponible = false;
+            else disponible = true;
+
+            return disponible;
         }
     }
 }
