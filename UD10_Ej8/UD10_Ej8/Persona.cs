@@ -10,6 +10,10 @@ namespace UD10_Ej8
         protected int edad;
         protected char sexo;
 
+        public string Nombre { get => nombre; set => nombre = value; }
+        public int Edad { get => edad; set => edad = value; }
+        public char Sexo { get => sexo; set => sexo = value; }
+
         public virtual bool Asistencia()
         {
             return true;
